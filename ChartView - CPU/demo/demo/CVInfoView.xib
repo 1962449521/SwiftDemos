@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CVInfoView" customModule="demo_copy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="114"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6A-z0-AGu">
+                    <rect key="frame" x="0.0" y="0.0" width="372" height="114"/>
+                    <connections>
+                        <action selector="infoViewClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="4FR-hd-dzx"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InfoViewBG.png" translatesAutoresizingMaskIntoConstraints="NO" id="uTM-Y3-gIb">
+                    <rect key="frame" x="0.0" y="0.0" width="372" height="114"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXa-aT-yTE">
+                    <rect key="frame" x="20" y="5" width="332" height="104"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InfoTick.png" translatesAutoresizingMaskIntoConstraints="NO" id="QOx-Jk-iOz">
+                    <rect key="frame" x="82" y="0.0" width="8" height="114"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="8" id="0me-v2-FTZ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="QOx-Jk-iOz" secondAttribute="bottom" id="0ap-Dz-gcn"/>
+                <constraint firstItem="W6A-z0-AGu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1Pu-kg-9hV"/>
+                <constraint firstAttribute="bottom" secondItem="uTM-Y3-gIb" secondAttribute="bottom" id="7G0-WT-YPy"/>
+                <constraint firstAttribute="trailing" secondItem="W6A-z0-AGu" secondAttribute="trailing" id="AgC-pN-Dif"/>
+                <constraint firstItem="uTM-Y3-gIb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="IZI-eu-zva"/>
+                <constraint firstItem="W6A-z0-AGu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ihw-oP-jAO"/>
+                <constraint firstItem="uTM-Y3-gIb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MnB-Ur-JAg"/>
+                <constraint firstAttribute="trailing" secondItem="uTM-Y3-gIb" secondAttribute="trailing" id="NV6-NH-VD1"/>
+                <constraint firstItem="PXa-aT-yTE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="PSl-aW-CfU"/>
+                <constraint firstAttribute="trailing" secondItem="PXa-aT-yTE" secondAttribute="trailing" constant="20" id="SrQ-p5-54L"/>
+                <constraint firstItem="QOx-Jk-iOz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="leading" constant="86" id="ZFi-tQ-CZZ"/>
+                <constraint firstItem="QOx-Jk-iOz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dwT-3I-dT4"/>
+                <constraint firstAttribute="bottom" secondItem="W6A-z0-AGu" secondAttribute="bottom" id="fGu-Uq-XO1"/>
+                <constraint firstItem="PXa-aT-yTE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="tDT-pl-5iJ"/>
+                <constraint firstAttribute="bottom" secondItem="PXa-aT-yTE" secondAttribute="bottom" constant="5" id="vXJ-Se-tNZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cstInfoViewLeading" destination="ZFi-tQ-CZZ" id="n0B-Fm-zZm"/>
+                <outlet property="lblMessage" destination="PXa-aT-yTE" id="TRR-iX-Gdf"/>
+            </connections>
+            <point key="canvasLocation" x="191" y="-5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="InfoTick.png" width="8" height="59"/>
+        <image name="InfoViewBG.png" width="68" height="59"/>
+    </resources>
+</document>
