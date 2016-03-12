@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4340EAA71BCA9818006D6967 /* DrawDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340EAA61BCA9818006D6967 /* DrawDocument.swift */; settings = {ASSET_TAGS = (); }; };
+		4340EAA91BCA98BD006D6967 /* DrawModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340EAA81BCA98BD006D6967 /* DrawModel.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC081BCA39CC0049E738 /* BaseBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC011BCA39CC0049E738 /* BaseBrush.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC091BCA39CC0049E738 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC021BCA39CC0049E738 /* Board.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC0A1BCA39CC0049E738 /* EllipseBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC031BCA39CC0049E738 /* EllipseBrush.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC0B1BCA39CC0049E738 /* EraserBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC041BCA39CC0049E738 /* EraserBrush.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC0C1BCA39CC0049E738 /* LineBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC051BCA39CC0049E738 /* LineBrush.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC0D1BCA39CC0049E738 /* PencilBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC061BCA39CC0049E738 /* PencilBrush.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC0E1BCA39CC0049E738 /* RectangleBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC071BCA39CC0049E738 /* RectangleBrush.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC161BCA3A8B0049E738 /* PaintingBrushSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC131BCA3A8B0049E738 /* PaintingBrushSettingsView.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC171BCA3A8B0049E738 /* PaintingBrushSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43DDAC141BCA3A8B0049E738 /* PaintingBrushSettingsView.xib */; settings = {ASSET_TAGS = (); }; };
+		43DDAC181BCA3A8B0049E738 /* RGBColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC151BCA3A8B0049E738 /* RGBColorPicker.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC1A1BCA44DC0049E738 /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC191BCA44DC0049E738 /* GalleryCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC1E1BCA544E0049E738 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC1D1BCA544E0049E738 /* GalleryCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC201BCA5D360049E738 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC1F1BCA5D360049E738 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		43DDAC221BCA79950049E738 /* EditPhotoCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDAC211BCA79950049E738 /* EditPhotoCommentViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9CD69B341A90B25900533279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD69B331A90B25900533279 /* AppDelegate.swift */; };
+		9CD69B361A90B25900533279 /* WorksapceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD69B351A90B25900533279 /* WorksapceViewController.swift */; };
+		9CD69B391A90B25900533279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD69B371A90B25900533279 /* Main.storyboard */; };
+		9CD69B3B1A90B25900533279 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD69B3A1A90B25900533279 /* Images.xcassets */; };
+		9CD69B3E1A90B25900533279 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CD69B3C1A90B25900533279 /* LaunchScreen.xib */; };
+		9CD69B4A1A90B25900533279 /* DrawingBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD69B491A90B25900533279 /* DrawingBoardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CD69B441A90B25900533279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CD69B261A90B25900533279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CD69B2D1A90B25900533279;
+			remoteInfo = DrawingBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4340EAA61BCA9818006D6967 /* DrawDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawDocument.swift; sourceTree = "<group>"; };
+		4340EAA81BCA98BD006D6967 /* DrawModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawModel.swift; sourceTree = "<group>"; };
+		43DDAC011BCA39CC0049E738 /* BaseBrush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBrush.swift; sourceTree = "<group>"; };
+		43DDAC021BCA39CC0049E738 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		43DDAC031BCA39CC0049E738 /* EllipseBrush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllipseBrush.swift; sourceTree = "<group>"; };
+		43DDAC041BCA39CC0049E738 /* EraserBrush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EraserBrush.swift; sourceTree = "<group>"; };
+		43DDAC051BCA39CC0049E738 /* LineBrush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineBrush.swift; sourceTree = "<group>"; };
+		43DDAC061BCA39CC0049E738 /* PencilBrush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilBrush.swift; sourceTree = "<group>"; };
+		43DDAC071BCA39CC0049E738 /* RectangleBrush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleBrush.swift; sourceTree = "<group>"; };
+		43DDAC131BCA3A8B0049E738 /* PaintingBrushSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintingBrushSettingsView.swift; sourceTree = "<group>"; };
+		43DDAC141BCA3A8B0049E738 /* PaintingBrushSettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaintingBrushSettingsView.xib; sourceTree = "<group>"; };
+		43DDAC151BCA3A8B0049E738 /* RGBColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBColorPicker.swift; sourceTree = "<group>"; };
+		43DDAC191BCA44DC0049E738 /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		43DDAC1D1BCA544E0049E738 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		43DDAC1F1BCA5D360049E738 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		43DDAC211BCA79950049E738 /* EditPhotoCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhotoCommentViewController.swift; sourceTree = "<group>"; };
+		43DDAC231BCA899B0049E738 /* DrawingBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DrawingBoard.entitlements; sourceTree = "<group>"; };
+		9CD69B2E1A90B25900533279 /* DrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD69B321A90B25900533279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD69B331A90B25900533279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CD69B351A90B25900533279 /* WorksapceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksapceViewController.swift; sourceTree = "<group>"; };
+		9CD69B381A90B25900533279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CD69B3A1A90B25900533279 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CD69B3D1A90B25900533279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9CD69B431A90B25900533279 /* DrawingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD69B481A90B25900533279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD69B491A90B25900533279 /* DrawingBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBoardTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CD69B2B1A90B25900533279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD69B401A90B25900533279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43DDABFB1BCA39910049E738 /* Brush & Board */ = {
+			isa = PBXGroup;
+			children = (
+				43DDAC011BCA39CC0049E738 /* BaseBrush.swift */,
+				43DDAC021BCA39CC0049E738 /* Board.swift */,
+				43DDAC031BCA39CC0049E738 /* EllipseBrush.swift */,
+				43DDAC041BCA39CC0049E738 /* EraserBrush.swift */,
+				43DDAC051BCA39CC0049E738 /* LineBrush.swift */,
+				43DDAC061BCA39CC0049E738 /* PencilBrush.swift */,
+				43DDAC071BCA39CC0049E738 /* RectangleBrush.swift */,
+			);
+			path = "Brush & Board";
+			sourceTree = "<group>";
+		};
+		43DDAC121BCA3A8B0049E738 /* Brush Setting */ = {
+			isa = PBXGroup;
+			children = (
+				43DDAC131BCA3A8B0049E738 /* PaintingBrushSettingsView.swift */,
+				43DDAC141BCA3A8B0049E738 /* PaintingBrushSettingsView.xib */,
+				43DDAC151BCA3A8B0049E738 /* RGBColorPicker.swift */,
+			);
+			path = "Brush Setting";
+			sourceTree = "<group>";
+		};
+		9CD69B251A90B25900533279 = {
+			isa = PBXGroup;
+			children = (
+				9CD69B301A90B25900533279 /* DrawingBoard */,
+				9CD69B461A90B25900533279 /* DrawingBoardTests */,
+				9CD69B2F1A90B25900533279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CD69B2F1A90B25900533279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CD69B2E1A90B25900533279 /* DrawingBoard.app */,
+				9CD69B431A90B25900533279 /* DrawingBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CD69B301A90B25900533279 /* DrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				43DDAC231BCA899B0049E738 /* DrawingBoard.entitlements */,
+				43DDAC121BCA3A8B0049E738 /* Brush Setting */,
+				43DDABFB1BCA39910049E738 /* Brush & Board */,
+				9CD69B331A90B25900533279 /* AppDelegate.swift */,
+				9CD69B351A90B25900533279 /* WorksapceViewController.swift */,
+				43DDAC191BCA44DC0049E738 /* GalleryCollectionViewController.swift */,
+				9CD69B371A90B25900533279 /* Main.storyboard */,
+				9CD69B3A1A90B25900533279 /* Images.xcassets */,
+				9CD69B3C1A90B25900533279 /* LaunchScreen.xib */,
+				9CD69B311A90B25900533279 /* Supporting Files */,
+				43DDAC1D1BCA544E0049E738 /* GalleryCollectionViewCell.swift */,
+				43DDAC1F1BCA5D360049E738 /* DetailViewController.swift */,
+				43DDAC211BCA79950049E738 /* EditPhotoCommentViewController.swift */,
+				4340EAA61BCA9818006D6967 /* DrawDocument.swift */,
+				4340EAA81BCA98BD006D6967 /* DrawModel.swift */,
+			);
+			path = DrawingBoard;
+			sourceTree = "<group>";
+		};
+		9CD69B311A90B25900533279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CD69B321A90B25900533279 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CD69B461A90B25900533279 /* DrawingBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CD69B491A90B25900533279 /* DrawingBoardTests.swift */,
+				9CD69B471A90B25900533279 /* Supporting Files */,
+			);
+			path = DrawingBoardTests;
+			sourceTree = "<group>";
+		};
+		9CD69B471A90B25900533279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CD69B481A90B25900533279 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CD69B2D1A90B25900533279 /* DrawingBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD69B4D1A90B25A00533279 /* Build configuration list for PBXNativeTarget "DrawingBoard" */;
+			buildPhases = (
+				9CD69B2A1A90B25900533279 /* Sources */,
+				9CD69B2B1A90B25900533279 /* Frameworks */,
+				9CD69B2C1A90B25900533279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingBoard;
+			productName = DrawingBoard;
+			productReference = 9CD69B2E1A90B25900533279 /* DrawingBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CD69B421A90B25900533279 /* DrawingBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD69B501A90B25A00533279 /* Build configuration list for PBXNativeTarget "DrawingBoardTests" */;
+			buildPhases = (
+				9CD69B3F1A90B25900533279 /* Sources */,
+				9CD69B401A90B25900533279 /* Frameworks */,
+				9CD69B411A90B25900533279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CD69B451A90B25900533279 /* PBXTargetDependency */,
+			);
+			name = DrawingBoardTests;
+			productName = DrawingBoardTests;
+			productReference = 9CD69B431A90B25900533279 /* DrawingBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CD69B261A90B25900533279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zhangao;
+				TargetAttributes = {
+					9CD69B2D1A90B25900533279 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 62PZ7QKS87;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					9CD69B421A90B25900533279 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 9CD69B2D1A90B25900533279;
+					};
+				};
+			};
+			buildConfigurationList = 9CD69B291A90B25900533279 /* Build configuration list for PBXProject "DrawingBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CD69B251A90B25900533279;
+			productRefGroup = 9CD69B2F1A90B25900533279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CD69B2D1A90B25900533279 /* DrawingBoard */,
+				9CD69B421A90B25900533279 /* DrawingBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CD69B2C1A90B25900533279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DDAC171BCA3A8B0049E738 /* PaintingBrushSettingsView.xib in Resources */,
+				9CD69B391A90B25900533279 /* Main.storyboard in Resources */,
+				9CD69B3E1A90B25900533279 /* LaunchScreen.xib in Resources */,
+				9CD69B3B1A90B25900533279 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD69B411A90B25900533279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CD69B2A1A90B25900533279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DDAC0E1BCA39CC0049E738 /* RectangleBrush.swift in Sources */,
+				43DDAC0B1BCA39CC0049E738 /* EraserBrush.swift in Sources */,
+				43DDAC161BCA3A8B0049E738 /* PaintingBrushSettingsView.swift in Sources */,
+				43DDAC221BCA79950049E738 /* EditPhotoCommentViewController.swift in Sources */,
+				43DDAC091BCA39CC0049E738 /* Board.swift in Sources */,
+				9CD69B361A90B25900533279 /* WorksapceViewController.swift in Sources */,
+				4340EAA91BCA98BD006D6967 /* DrawModel.swift in Sources */,
+				43DDAC181BCA3A8B0049E738 /* RGBColorPicker.swift in Sources */,
+				43DDAC081BCA39CC0049E738 /* BaseBrush.swift in Sources */,
+				43DDAC1A1BCA44DC0049E738 /* GalleryCollectionViewController.swift in Sources */,
+				43DDAC0D1BCA39CC0049E738 /* PencilBrush.swift in Sources */,
+				4340EAA71BCA9818006D6967 /* DrawDocument.swift in Sources */,
+				9CD69B341A90B25900533279 /* AppDelegate.swift in Sources */,
+				43DDAC0C1BCA39CC0049E738 /* LineBrush.swift in Sources */,
+				43DDAC1E1BCA544E0049E738 /* GalleryCollectionViewCell.swift in Sources */,
+				43DDAC0A1BCA39CC0049E738 /* EllipseBrush.swift in Sources */,
+				43DDAC201BCA5D360049E738 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD69B3F1A90B25900533279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD69B4A1A90B25900533279 /* DrawingBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CD69B451A90B25900533279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CD69B2D1A90B25900533279 /* DrawingBoard */;
+			targetProxy = 9CD69B441A90B25900533279 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CD69B371A90B25900533279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CD69B381A90B25900533279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CD69B3C1A90B25900533279 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CD69B3D1A90B25900533279 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CD69B4B1A90B25A00533279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CD69B4C1A90B25A00533279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CD69B4E1A90B25A00533279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DrawingBoard/DrawingBoard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DrawingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Disney.DrawingBoard.1000001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9CD69B4F1A90B25A00533279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DrawingBoard/DrawingBoard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DrawingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Disney.DrawingBoard.1000001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9CD69B511A90B25A00533279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Disney.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawingBoard.app/DrawingBoard";
+			};
+			name = Debug;
+		};
+		9CD69B521A90B25A00533279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Disney.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawingBoard.app/DrawingBoard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CD69B291A90B25900533279 /* Build configuration list for PBXProject "DrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD69B4B1A90B25A00533279 /* Debug */,
+				9CD69B4C1A90B25A00533279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD69B4D1A90B25A00533279 /* Build configuration list for PBXNativeTarget "DrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD69B4E1A90B25A00533279 /* Debug */,
+				9CD69B4F1A90B25A00533279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD69B501A90B25A00533279 /* Build configuration list for PBXNativeTarget "DrawingBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD69B511A90B25A00533279 /* Debug */,
+				9CD69B521A90B25A00533279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CD69B261A90B25900533279 /* Project object */;
+}
