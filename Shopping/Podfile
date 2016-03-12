@@ -1,0 +1,6 @@
+use_frameworks!
+pod 'Alamofire', '~> 3.1.3'
+pod 'SwiftyJSON', '~> 2.3.1'
+pod 'BNRCoreDataStack'
+pod 'BProgressHUD', '~> 1.0.0'
+pod 'SDWebImage', '~>3.7'
