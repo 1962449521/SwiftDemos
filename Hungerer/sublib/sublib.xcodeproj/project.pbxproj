@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43351AB71B4F3BE1005ADEAB /* sublib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43351AB61B4F3BE1005ADEAB /* sublib.h */; };
+		43351AB91B4F3BE1005ADEAB /* sublib.m in Sources */ = {isa = PBXBuildFile; fileRef = 43351AB81B4F3BE1005ADEAB /* sublib.m */; };
+		43351ABF1B4F3BE1005ADEAB /* libsublib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43351AB31B4F3BE1005ADEAB /* libsublib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43351AC01B4F3BE1005ADEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43351AAB1B4F3BE1005ADEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43351AB21B4F3BE1005ADEAB;
+			remoteInfo = sublib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43351AB11B4F3BE1005ADEAB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				43351AB71B4F3BE1005ADEAB /* sublib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43486D881B4F3FE7009D7CDB /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include;
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		43351AB31B4F3BE1005ADEAB /* libsublib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsublib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43351AB61B4F3BE1005ADEAB /* sublib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sublib.h; sourceTree = "<group>"; };
+		43351AB81B4F3BE1005ADEAB /* sublib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sublib.m; sourceTree = "<group>"; };
+		43351ABE1B4F3BE1005ADEAB /* sublibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sublibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43351AC41B4F3BE1005ADEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43351AB01B4F3BE1005ADEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43351ABB1B4F3BE1005ADEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43351ABF1B4F3BE1005ADEAB /* libsublib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43351AAA1B4F3BE1005ADEAB = {
+			isa = PBXGroup;
+			children = (
+				43351AB51B4F3BE1005ADEAB /* sublib */,
+				43351AC21B4F3BE1005ADEAB /* sublibTests */,
+				43351AB41B4F3BE1005ADEAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43351AB41B4F3BE1005ADEAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43351AB31B4F3BE1005ADEAB /* libsublib.a */,
+				43351ABE1B4F3BE1005ADEAB /* sublibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43351AB51B4F3BE1005ADEAB /* sublib */ = {
+			isa = PBXGroup;
+			children = (
+				43351AB61B4F3BE1005ADEAB /* sublib.h */,
+				43351AB81B4F3BE1005ADEAB /* sublib.m */,
+			);
+			path = sublib;
+			sourceTree = "<group>";
+		};
+		43351AC21B4F3BE1005ADEAB /* sublibTests */ = {
+			isa = PBXGroup;
+			children = (
+				43351AC31B4F3BE1005ADEAB /* Supporting Files */,
+			);
+			path = sublibTests;
+			sourceTree = "<group>";
+		};
+		43351AC31B4F3BE1005ADEAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43351AC41B4F3BE1005ADEAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43351AB21B4F3BE1005ADEAB /* sublib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43351AC71B4F3BE1005ADEAB /* Build configuration list for PBXNativeTarget "sublib" */;
+			buildPhases = (
+				43351AAF1B4F3BE1005ADEAB /* Sources */,
+				43351AB01B4F3BE1005ADEAB /* Frameworks */,
+				43351AB11B4F3BE1005ADEAB /* CopyFiles */,
+				43486D881B4F3FE7009D7CDB /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sublib;
+			productName = sublib;
+			productReference = 43351AB31B4F3BE1005ADEAB /* libsublib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		43351ABD1B4F3BE1005ADEAB /* sublibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43351ACA1B4F3BE1005ADEAB /* Build configuration list for PBXNativeTarget "sublibTests" */;
+			buildPhases = (
+				43351ABA1B4F3BE1005ADEAB /* Sources */,
+				43351ABB1B4F3BE1005ADEAB /* Frameworks */,
+				43351ABC1B4F3BE1005ADEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43351AC11B4F3BE1005ADEAB /* PBXTargetDependency */,
+			);
+			name = sublibTests;
+			productName = sublibTests;
+			productReference = 43351ABE1B4F3BE1005ADEAB /* sublibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43351AAB1B4F3BE1005ADEAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					43351AB21B4F3BE1005ADEAB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					43351ABD1B4F3BE1005ADEAB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 43351AAE1B4F3BE1005ADEAB /* Build configuration list for PBXProject "sublib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43351AAA1B4F3BE1005ADEAB;
+			productRefGroup = 43351AB41B4F3BE1005ADEAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43351AB21B4F3BE1005ADEAB /* sublib */,
+				43351ABD1B4F3BE1005ADEAB /* sublibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43351ABC1B4F3BE1005ADEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43351AAF1B4F3BE1005ADEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43351AB91B4F3BE1005ADEAB /* sublib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43351ABA1B4F3BE1005ADEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43351AC11B4F3BE1005ADEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43351AB21B4F3BE1005ADEAB /* sublib */;
+			targetProxy = 43351AC01B4F3BE1005ADEAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43351AC51B4F3BE1005ADEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43351AC61B4F3BE1005ADEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43351AC81B4F3BE1005ADEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		43351AC91B4F3BE1005ADEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		43351ACB1B4F3BE1005ADEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sublibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43351ACC1B4F3BE1005ADEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sublibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43351AAE1B4F3BE1005ADEAB /* Build configuration list for PBXProject "sublib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43351AC51B4F3BE1005ADEAB /* Debug */,
+				43351AC61B4F3BE1005ADEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43351AC71B4F3BE1005ADEAB /* Build configuration list for PBXNativeTarget "sublib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43351AC81B4F3BE1005ADEAB /* Debug */,
+				43351AC91B4F3BE1005ADEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43351ACA1B4F3BE1005ADEAB /* Build configuration list for PBXNativeTarget "sublibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43351ACB1B4F3BE1005ADEAB /* Debug */,
+				43351ACC1B4F3BE1005ADEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43351AAB1B4F3BE1005ADEAB /* Project object */;
+}

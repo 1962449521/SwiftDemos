@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+use_frameworks!
+pod 'SwiftHTTP', '~> 0.9.4'
+
+
+platform :ios, '8.0'
+use_frameworks!
+pod 'JSONJoy-Swift', '~> 0.9.1'
+
+platform :ios, ‘8.2’
+use_frameworks!
+pod 'KFSwiftImageLoader', '~> 1.2'
